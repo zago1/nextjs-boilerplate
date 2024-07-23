@@ -9,7 +9,7 @@
     "lint": "next lint",
     "prepare": "husky install",
     "test": "jest --passWithNoTests --maxWorksers=50%",
-    "test:watch": "jest --maxWorksers=25%",
+    "test:watch": "jest --watch --maxWorksers=25%",
     "test:ci": "jest --runInBand"
   },
   "dependencies": {
